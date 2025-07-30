@@ -16,7 +16,7 @@ public class CorsGlobalConfig {
                     .allowedOrigins(
                         "https://joyful-backend-frontend-2-production.up.railway.app", // ✅ New frontend
                         "http://127.0.0.1:5500",  // Optional: local dev
-                        "http://localhost:5500"   // Optional: local dev
+                        "http://localhost:5173"   // Optional: local dev
                     )
                     .allowedMethods("GET", "POST", "PUT", "DELETE")
                     .allowedHeaders("*");
